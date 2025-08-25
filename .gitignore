@@ -1,0 +1,37 @@
+# Environment files
+.env
+.env.local
+
+# Model files (optional, jika mau exclude dari git)
+# batik_model.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+Lib/
+Scripts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+pyvenv.cfg

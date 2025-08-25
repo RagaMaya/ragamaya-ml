@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: batik-classifier-leon24k
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: MODEL_PATH
+        value: batik_model.h5

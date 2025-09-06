@@ -26,12 +26,14 @@ Service ini menggunakan model deep learning yang telah dilatih khusus untuk meng
 - REST API Endpoint
 - Docker Support
 - Integrasi dengan RagaMaya Backend
+- Jupyter Notebook untuk Training dan Evaluasi Model
 
 ## 🛠️ Teknologi yang Digunakan
 
 - **Bahasa Pemrograman:** Python
 - **Framework ML:** TensorFlow
 - **Web Framework:** Flask
+- **Notebook:** Jupyter Notebook
 - **Kontainerisasi:** Docker
 - **Model Format:** HDF5
 
@@ -65,6 +67,7 @@ docker run -p 5000:5000 ragamaya-ml
 ├── app.py           # Aplikasi utama Flask
 ├── Dockerfile       # Konfigurasi Docker
 ├── requirements.txt # Dependensi Python
+├── Batik.ipynb     # Notebook untuk training dan evaluasi model
 └── models/         # Model ML
     └── batik_model.h5
 ```
